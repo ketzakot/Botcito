@@ -16,7 +16,7 @@ const {
   mentionedJid,
   processTime,
   ChatModification,
-} = require('@adiwajshing/baileys');
+} = require('@adiwajshing/baileys')
 //--
 
 //--File js
