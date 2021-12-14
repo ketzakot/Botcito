@@ -593,8 +593,8 @@ Hola *${pushname}*
 ‣ Número de grupos: *${_registered.length}*
 ‣ Número de chats: *${totalchat.length}*
 ‣ creditos a Ketzakot oficial
-‣ Suscribete al canal de 𝕸𝖗.𝕻𝖆𝖙𝖔
-_${Ig}_
+‣ Suscribete al canal de Ketzakot
+_https://youtube.com/channel/UCVW4jbcJ7OYN3TRGdt99t-Q_
 ────────────────
 ┏━━━━━━━━━━━━━━━━━━━━
 ┃─────〘 🤖BOTCITO_OFC🤖 〙────
