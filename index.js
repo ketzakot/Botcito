@@ -1079,7 +1079,6 @@ break
 				
 				case 'antiwa':
                                         if (!isGroup) return reply(mess.only.group)
-					if (!isUser) return reply(mess.only.daftarB)
 					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 					if (!isGroupAdmins) return reply(mess.only.ownerG)
 					if (args.length < 1) return reply('Coloque *antimenu para ver los comandos de activación de los antilinks')
@@ -1100,7 +1099,6 @@ break
 					
 				case 'antidiscord':
                                         if (!isGroup) return reply(mess.only.group)
-					if (!isUser) return reply(mess.only.daftarB)
 					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 					if (!isGroupAdmins) return reply(mess.only.ownerG)
 					if (args.length < 1) return reply('Coloque *antimenu para ver los comandos de activación de los antilinks')
