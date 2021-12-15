@@ -3441,7 +3441,7 @@ break
 					if (args.length < 1) return reply(`Hola ${pushname}`)
 					teks = body.slice(6)
 					try { 
-					anu = await fetchJson(`https://api.xteam.xyz/simsimi?kata=${teks}&APIKEY=${xKey}`, {method: 'get'})
+					anu = await fetchJson(`https://api.simsimi.net/v2/?text=${value}&lc=${cekBahasa(who)}`, {method: 'get'})
 					if (anu.error) return reply('Escribe el texto bien')
 					reply(anu.jawaban)
 					} catch {
