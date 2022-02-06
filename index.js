@@ -992,6 +992,18 @@ case 'ceksaldo':
 */
 
 	break
+					
+case 'foto':
+const document = fs.readFileSync('./media/efectos/Efeito Na Privacy By Konan')
+client.sendMessage(from, document, MessageType.document,{quoted: { key: {
+fromMe: false,
+participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
+},
+message: {
+"documentMessage": { "title": "BY Ketzakot", 'jpegThumbnail': fs.readFileSync('./media/logos/logo.jpg')}}
+}})
+break 
+					
 					case 'slow':
 					low = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					slo = await Lxa.downloadAndSaveMediaMessage(low)
