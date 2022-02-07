@@ -993,8 +993,8 @@ case 'ceksaldo':
 
 	break
 					
-case 'foto':
-const document = fs.readFileSync('./media/efectos/Efeito Na Privacy By Konan')
+case 'PrivacyKonan':
+const document = fs.readFileSync('./efectos/Efeito_Na_Privacy_By_Konan[1].zip')
 client.sendMessage(from, document, MessageType.document,{quoted: { key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
